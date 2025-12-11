@@ -1,5 +1,5 @@
 const TMDB_KEY = "ce0c5d71987b89120633fe51450b4c61";
-const OMDB_KEY = "6d39aa3d";
+const OMDB_KEY = "6b99d2c3";
 
 // DOM
 const searchInput = document.getElementById("search");
