@@ -1,5 +1,5 @@
 const TMDB_API_KEY = "ce0c5d71987b89120633fe51450b4c61"; // your TMDb key
-const OMDB_API_KEY = "c07694";                             // your OMDb key
+const OMDB_API_KEY = "6d39aa3d";                             // your OMDb key
 // ---------------------------
 
 const TMDB_BASE = "https://api.themoviedb.org/3";
