@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Finder</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body data-theme="dark">
+  <main class="container">
+    <header class="header">
+      <h1>🎬 Movie Finder</h1>
+      <p class="sub">Search movies and view cast, plot, awards and trailer</p>
+      <button id="toggleTheme">Toggle Theme</button>
+    </header>
+
+    <section class="search-section">
+      <div class="search-row">
+        <input id="search" type="text" placeholder="Type movie name..." aria-label="Search movies" autocomplete="off">
+        <button id="searchBtn">Search</button>
+      </div>
+      <ul id="suggestions" class="suggestions" role="listbox" aria-label="Search suggestions"></ul>
+    </section>
+
+    <div id="loader" class="loader hidden" aria-hidden="true"></div>
+
+    <section id="details" class="details" aria-live="polite"></section>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
